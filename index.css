@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    font-family: "Poppins", 'Gill Sans';
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+h3{
+    font-size: 0.9rem;
+}
+
+.name{
+    font-size: 1.3rem;
+}
+
+
+.subHeading > ul{
+    display: flex;
+    font-size: 10px;
+    gap: 30px;
+}
+
+.subHeading > ul > li > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.contentContainer{
+    padding: 1rem;
+}
+
+.proExpItems{
+    padding-bottom: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding-bottom: 2rem;
+}
+
+.contentSubheading{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.endGrid{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.contentDescription > p{
+    padding-top: 0.7rem;
+}
+
+.contentDescription > ul{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+
+
